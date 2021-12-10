@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NavegationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', [NavegationController::class, 'home'])->name('home');
+Route::get('/petmart', [NavegationController::class, 'petmart'])->name('petmart');
+Route::get('/about', [NavegationController::class, 'about'])->name('about');
+Route::get('/blog', [NavegationController::class, 'blog'])->name('blog');
+Route::get('/petguide', [NavegationController::class, 'petguide'])->name('petguide');
+Route::get('/contact', [NavegationController::class, 'contact'])->name('contact');
