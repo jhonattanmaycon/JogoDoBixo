@@ -12,42 +12,42 @@
   <ul class="navigation">
   <li class="active"><a href="{{route('home')}}">Home</a></li>
     <li><a href="{{route('petmart')}}">PetMart</a></li>
-    <li><a href="{{route('about')}}">About us</a></li>
+    <li><a href="{{route('about')}}">Sobre nós</a></li>
     <li><a href="{{route('blog')}}">Blog</a></li>
     <li><a href="{{route('petguide')}}">PetGuide</a></li>
-    <li><a href="{{route('contact')}}">Contact us</a></li>
+    <li><a href="{{route('contact')}}">Contato</a></li>
   </ul>
 </div>
 <div id="body">
   <div id="content">
     <div class="content">
-      <h2>Pet Guide</h2>
+      <h2>Guia pet</h2>
       <div>
         <p> Here are some useful pet quide tips for your pets. Easy and convenient for you to learn more on how to understand them. basic intructions to useful information not just for your pet but also for other animals. </p>
       </div>
       <ul class="section">
         <li>
-          <h2>Pet Training Guides</h2>
+          <h2>Treinanamento</h2>
           <p> Donec a purus sit amet risus consectetur lacinia et ut libero. Vestibulum tempus fauscibus sagittis. Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. </p>
         </li>
         <li>
-          <h2>Make them Behave</h2>
+          <h2>Adestramento</h2>
           <p> Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. porta. Duis risus augue, sollicitudin sit amet enim. </p>
         </li>
         <li>
-          <h2>Food tht They Need</h2>
+          <h2>Alimentos necessários</h2>
           <p> Donec a purus sit amet risus consectetur lacinia et ut libero. Vestibulum tempus fauscibus sagittis. Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. </p>
         </li>
         <li>
-          <h2>Do's and Don'ts</h2>
+          <h2>O que fazer e não fazer</h2>
           <p> Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. porta. Duis risus augue, sollicitudin sit amet enim. </p>
         </li>
         <li>
-          <h2>Pet Foods</h2>
+          <h2>Alimentos de cada pet</h2>
           <p> Donec a purus sit amet risus consectetur lacinia et ut libero. Vestibulum tempus fauscibus sagittis. Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. </p>
         </li>
         <li>
-          <h2>healthy Recipes for Pets</h2>
+          <h2>Receitas saudáveis</h2>
           <p> Ut gravida lacus eget orci bibendum aliuet. A enean adipiscing congue mi a fringilla. Suspendisse placerat arcu ac est pharetra sit amet pretium ante. porta. Duis risus augue, sollicitudin sit amet enim. </p>
         </li>
       </ul>
@@ -57,7 +57,7 @@
       <div id="section">
         <div>
           <div>
-            <h2>Pet Guide Overview</h2>
+            <h2>Tópicos principais</h2>
             <ul>
               <li><a href="#">Pet Trainging Guides <span>(1)</span> </a></li>
               <li><a href="#">Behavior Training <span>(11)</span> </a></li>
