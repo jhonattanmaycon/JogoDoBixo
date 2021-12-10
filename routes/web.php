@@ -15,7 +15,7 @@ use App\Http\Controllers\NavegationController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/home', [NavegationController::class, 'home'])->name('home');
