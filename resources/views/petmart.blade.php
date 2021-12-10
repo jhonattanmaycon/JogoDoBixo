@@ -8,7 +8,7 @@
 <!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css"><![endif]-->
 </head>
 <body>
-<div id="header"> <a href="#" id="logo"><img src="{{asset('assets/img/logo.gif')}}" width="310" height="114" alt=""></a>
+<div id="header"> <a href="{{route('home')}}" id="logo"><img src="{{asset('assets/img/logo.gif')}}" width="310" height="114" alt=""></a>
   <ul class="navigation">
   <li class="active"><a href="{{route('home')}}">Home</a></li>
     <li><a href="{{route('petmart')}}">PetMart</a></li>
