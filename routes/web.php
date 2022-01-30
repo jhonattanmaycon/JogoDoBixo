@@ -14,13 +14,18 @@ use App\Http\Controllers\NavegationController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/home', [NavegationController::class, 'home'])->name('home');
-Route::get('/petmart', [NavegationController::class, 'petmart'])->name('petmart');
-Route::get('/about', [NavegationController::class, 'about'])->name('about');
-Route::get('/blog', [NavegationController::class, 'blog'])->name('blog');
-Route::get('/petguide', [NavegationController::class, 'petguide'])->name('petguide');
-Route::get('/contact', [NavegationController::class, 'contact'])->name('contact');
+Route::get('/', [NavegationController::class, 'home'])->name('home')->middleware(['auth']);
+
+Route::get('/home', [NavegationController::class, 'home'])->name('home')->middleware(['auth']);
+Route::get('/petmart', [NavegationController::class, 'petmart'])->name('petmart')->middleware(['auth']);
+Route::get('/about', [NavegationController::class, 'about'])->name('about')->middleware(['auth']);
+Route::get('/blog', [NavegationController::class, 'blog'])->name('blog')->middleware(['auth']);
+Route::get('/petguide', [NavegationController::class, 'petguide'])->name('petguide')->middleware(['auth']);
+Route::get('/contact', [NavegationController::class, 'contact'])->name('contact')->middleware(['auth']);
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
